@@ -1,0 +1,19 @@
+# Ignore vendor
+/vendor/
+
+# Ignore Drupal core (installed by composer)
+/web/core/
+
+# Ignore files directory
+/web/sites/default/files/
+
+# Ignore settings files
+/web/sites/*/settings.php
+
+# Ignore local environment files
+.env
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

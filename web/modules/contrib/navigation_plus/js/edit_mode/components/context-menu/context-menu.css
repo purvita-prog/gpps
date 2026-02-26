@@ -1,0 +1,92 @@
+.draggable-block:has(.np-context-menu) {
+  position: relative;
+}
+
+.item-list:has(.np-context-menu),
+.draggable-block > ul.np-context-menu {
+  position: absolute;
+  top: 0;
+  left: .5em;
+  &:before {
+    content: url("../../../../assets/dots.svg");
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &.active:before {
+    content: url("../../../../assets/x.svg");
+  }
+}
+
+.item-list .np-context-menu {
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+  background: white;
+  border: 1px solid var(--drupal-admin-color-gray-600, #b4bdd1);
+  border-radius: .5em;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  li {
+    margin: 0;
+    padding: .25em 1em;
+  }
+}
+
+.draggable-block > ul.np-context-menu {
+  list-style: none;
+  padding-top: 28px;
+  li {
+    background: white;
+    margin: 0;
+    padding: .25em 1em;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    white-space: nowrap;
+    &:first-child {
+      border: 1px solid var(--drupal-admin-color-gray-600, #b4bdd1);
+      border-bottom: none;
+      border-radius: .5em .5em 0 0;
+    }
+    &:last-child {
+      border: 1px solid var(--drupal-admin-color-gray-600, #b4bdd1);
+      border-top: none;
+      border-radius: 0 0 .5em .5em;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  &.active li {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+.item-list.active .np-context-menu {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.navigation-plus-sidebar {
+  &:has(.left-sidebar) {
+    .np-context-menu {
+      z-index: calc(var(--navigation-plus-left-sidebar-z-index) + 1);
+    }
+  }
+  &:has(.right-sidebar) {
+    .np-context-menu {
+      z-index: calc(var(--navigation-plus-right-sidebar-z-index) + 1);
+    }
+  }
+}

@@ -1,0 +1,39 @@
+#navigation-plus-edit .toolbar-label {
+ margin-top: 1em;
+}
+
+:is(#extra-specificity-hack, [data-drupal-admin-styles]), html {
+  .navigation-plus-button,
+  .navigation-plus-mode-button,
+  .navigation-plus-mode-link {
+    &.toolbar-button {
+      &.active, &.active:hover:focus {
+        background-color: var(--navigation-plus-main-color);
+        color: var(--admin-toolbar-color-white);
+      }
+    }
+  }
+}
+
+.navigation-plus-hidden {
+  display: none !important;
+}
+
+#navigation-plus .item-list li {
+  margin: 0;
+}
+
+@keyframes pop {
+  from { background-color: rgb(from var(--navigation-plus-highlight-color) r g b / 1); }
+  to { background-color: rgb(from var(--navigation-plus-highlight-color) r g b / 0); }
+}
+.call-attention-to {
+  background-color: inherit;
+  animation: pop 3s;
+  animation-fill-mode: forwards;
+}
+
+.np-highlight {
+  background-color: var(--navigation-plus-highlight-color) !important;
+}
+

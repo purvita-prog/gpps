@@ -1,0 +1,13 @@
+/* Hide other footer items when a mode is active */
+:is(#extra-specificity-hack, [data-drupal-admin-styles]) {
+  .admin-toolbar__footer:has(.navigation-plus-mode-button.active) .toolbar-block {
+    display: none;
+  }
+
+  .admin-toolbar__footer:has(.navigation-plus-mode-button.active) .navigation-plus-mode-button:not(.active) {
+    display: none;
+  }
+  #menu-footer {
+    z-index: 1;
+  }
+}

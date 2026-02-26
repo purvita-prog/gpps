@@ -1,0 +1,13 @@
+name: 'Navigation +'
+type: module
+description: 'A standardized UI for a suite of tool based modules.'
+package: 'Page Building'
+core_version_requirement: ^11
+dependencies:
+  - drupal:navigation
+  - twig_events:twig_events
+
+# Information added by Drupal.org packaging script on 2026-02-05
+version: '2.2.2'
+project: 'navigation_plus'
+datestamp: 1770316853

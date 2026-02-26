@@ -1,0 +1,14 @@
+parameters:
+
+  # Twig configuration.
+  twig.config:
+    debug: true
+    auto_reload: null
+    cache: true
+
+  # HTTP response debugging.
+  http.response.debug_cacheability_headers: false
+
+services:
+  # You can override or add custom services here.
+
