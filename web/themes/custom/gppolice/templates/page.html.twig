@@ -122,8 +122,15 @@
     {{ page.hero }}
   </div>
 {% endif %}
+
+{% if page.breadcrumb %}
+<div class="site-breadcrumb">
+    <div class="container">
+	{{ page.breadcrumb }}
+</div>
+</div>
+{% endif %}
         <div id="main" class="{{ container }}">
-          {{ page.breadcrumb }}
           <div class="row row-offcanvas row-offcanvas-left clearfix">
               <main{{ content_attributes }}>
                 <section class="section">

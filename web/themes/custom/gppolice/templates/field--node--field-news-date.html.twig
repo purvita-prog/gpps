@@ -1,0 +1,8 @@
+{% for item in items %}
+  {% set date = item.content['#context'].value %}
+
+  <div class="news-datetime">
+    <span class="news-date"><i class="far fa-calendar-alt">&nbsp;</i> {{ date|date("M d, Y") }}</span>
+    <span class="news-time"><i class="far fa-clock">&nbsp;</i> {{ date|date("h:i A") }}</span>
+  </div>
+{% endfor %}
