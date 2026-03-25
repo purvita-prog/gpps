@@ -1,0 +1,17 @@
+facebook_style:
+  version: VERSION
+  css:
+    theme:
+      css/socialfeed-facebook.css: {}
+
+twitter_style:
+  version: VERSION
+  css:
+    theme:
+      css/socialfeed-twitter.css: {}
+
+instagram_style:
+  version: VERSION
+  css:
+    theme:
+      css/socialfeed-instagram.css: {}

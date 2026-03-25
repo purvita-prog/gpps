@@ -1,0 +1,73 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display the Facebook block.
+ *
+ * Variables:
+ * - post: Render-ready post data.
+ * - permalink_url: Raw URL to the original Facebook post.
+ * - image_alt: Plain-text alt for the post image, derived from the message.
+ * - use_facebook_style: If TRUE, attach default styling and use full UI layout.
+ * - should_display_time: If TRUE, show formatted created_time.
+ */
+#}
+
+{% set base = 'sf-facebook-post' %}
+{% set classes = [base, use_facebook_style ? base ~ '--styled' : base ~ '--custom'] %}
+
+<article class="{{ classes|join(' ') }}">
+  {% if use_facebook_style %}
+    <header class="{{ base }}__header">
+      <div class="{{ base }}__meta">
+        {% if should_display_time and post.created_time %}
+          <time class="{{ base }}__time">{{ post.created_time }}</time>
+        {% endif %}
+      </div>
+    </header>
+  {% endif %}
+
+  {% if post.message %}
+    <div class="{{ base }}__content">
+      <div class="{{ base }}__message">{{ post.message }}</div>
+    </div>
+  {% endif %}
+
+  {% if post.full_picture or post.picture %}
+    <figure class="{{ base }}__media">
+      {% if permalink_url %}
+        <a href="{{ permalink_url }}" target="_blank" rel="noopener">
+          <img src="{{ post.full_picture ?: post.picture }}" alt="{{ image_alt }}" class="{{ base }}__image" loading="lazy" />
+        </a>
+      {% else %}
+        <img src="{{ post.full_picture ?: post.picture }}" alt="{{ image_alt }}" class="{{ base }}__image" loading="lazy" />
+      {% endif %}
+    </figure>
+  {% endif %}
+
+  {% if post.video %}
+    <div class="{{ base }}__media {{ base }}__media--video">
+      <a href="{{ post.video }}" class="{{ base }}__video-link" target="_blank" rel="noopener">
+        <span class="{{ base }}__video-icon" aria-hidden="true">▶</span>
+        <span class="visually-hidden">{{ 'Play video'|t }}</span>
+        <span>{{ 'Watch Video'|t }}</span>
+      </a>
+    </div>
+  {% endif %}
+
+  {% if use_facebook_style %}
+    <footer class="{{ base }}__footer">
+      {% if post.permalink_url %}
+        <div class="{{ base }}__actions">
+          {{ post.permalink_url }}
+        </div>
+      {% endif %}
+    </footer>
+  {% else %}
+    {% if not should_display_time and post.created_time %}
+      <div class="{{ base }}__time">{{ post.created_time }}</div>
+    {% endif %}
+    {% if post.permalink_url %}
+      <div class="{{ base }}__link">{{ post.permalink_url }}</div>
+    {% endif %}
+  {% endif %}
+</article>

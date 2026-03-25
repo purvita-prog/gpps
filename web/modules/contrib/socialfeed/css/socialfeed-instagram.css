@@ -1,0 +1,38 @@
+/* Instagram BEM styles */
+.sf-instagram-post--styled {
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  background: #fff;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.sf-instagram-post--styled .sf-instagram-post__media {
+  background: #fafafa;
+  line-height: 0;
+}
+
+.sf-instagram-post--styled .sf-instagram-post__image,
+.sf-instagram-post--styled .sf-instagram-post__video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sf-instagram-post--styled .sf-instagram-post__carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 8px;
+  padding: 8px;
+}
+
+.sf-instagram-post--styled .sf-instagram-post__link {
+  text-decoration: none;
+}
+
+/* Minimal custom */
+.sf-instagram-post--custom .sf-instagram-post__image {
+  max-width: 100%;
+  height: auto;
+}

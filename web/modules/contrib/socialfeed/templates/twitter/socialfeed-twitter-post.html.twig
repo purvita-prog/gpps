@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display the X (formerly Twitter) block.
+ */
+#}
+
+{% set base = 'sf-twitter-post' %}
+{% set classes = [base, use_twitter_style ? base ~ '--styled' : base ~ '--custom'] %}
+
+<article class="{{ classes|join(' ') }}">
+  <header class="{{ base }}__header">
+    <a class="{{ base }}__username" href="{{ post.full_username }}"><span aria-hidden="true">@</span>{{ post.username }}</a>
+  </header>
+
+  <div class="{{ base }}__content">{{ tweet }}</div>
+
+  {% if post.twitter_date %}
+    <div class="{{ base }}__meta">
+      <time class="{{ base }}__time">{{ post.twitter_date }}</time>
+    </div>
+  {% endif %}
+
+  {% if tweet_url %}
+    <div class="{{ base }}__actions">{{ tweet_url }}</div>
+  {% endif %}
+</article>

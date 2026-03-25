@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": "123456789",
+      "name": "Test Page",
+      "username": "testpage",
+      "access_token": "EAABsbCS1iHgBO0ZCtest123pagetoken456"
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "abc",
+      "after": "def"
+    }
+  }
+}

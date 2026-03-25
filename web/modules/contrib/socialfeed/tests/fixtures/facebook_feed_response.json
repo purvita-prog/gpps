@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "123456789_987654321",
+      "message": "Check out our latest update! #drupal #socialfeed",
+      "created_time": "2024-12-01T14:30:00+0000",
+      "permalink_url": "https://www.facebook.com/TestPage/posts/987654321",
+      "picture": "https://scontent.example.com/v/t39.30808-6/image1.jpg",
+      "status_type": "added_photos",
+      "full_picture": "https://scontent.example.com/v/t39.30808-6/image1_full.jpg",
+      "from": {
+        "name": "Test Page",
+        "id": "123456789"
+      }
+    },
+    {
+      "id": "123456789_111222333",
+      "message": "We just published a new article about Drupal modules.",
+      "created_time": "2024-11-28T09:15:00+0000",
+      "permalink_url": "https://www.facebook.com/TestPage/posts/111222333",
+      "status_type": "published_story",
+      "from": {
+        "name": "Test Page",
+        "id": "123456789"
+      }
+    },
+    {
+      "id": "123456789_444555666",
+      "message": "Shared an interesting post about open source.",
+      "created_time": "2024-11-25T17:45:00+0000",
+      "permalink_url": "https://www.facebook.com/TestPage/posts/444555666",
+      "status_type": "shared_story",
+      "from": {
+        "name": "Test Page",
+        "id": "123456789"
+      }
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "abc123",
+      "after": "xyz789"
+    },
+    "next": "https://graph.facebook.com/v18.0/123456789/feed?limit=10&after=xyz789"
+  }
+}

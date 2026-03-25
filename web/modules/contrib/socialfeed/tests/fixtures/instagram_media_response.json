@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "17854360229135492",
+      "media_type": "IMAGE",
+      "media_url": "https://scontent.example.com/v/t51.29350-15/image1.jpg",
+      "username": "testaccount",
+      "timestamp": "2024-12-01T14:30:00+0000",
+      "caption": "Beautiful sunset #photography #nature",
+      "permalink": "https://www.instagram.com/p/ABC123/"
+    },
+    {
+      "id": "17854360229135493",
+      "media_type": "VIDEO",
+      "media_url": "https://scontent.example.com/v/t50.2886-16/video1.mp4",
+      "thumbnail_url": "https://scontent.example.com/v/t51.29350-15/thumb1.jpg",
+      "username": "testaccount",
+      "timestamp": "2024-11-28T09:15:00+0000",
+      "caption": "Time-lapse of the city #timelapse",
+      "permalink": "https://www.instagram.com/p/DEF456/"
+    },
+    {
+      "id": "17854360229135494",
+      "media_type": "CAROUSEL_ALBUM",
+      "media_url": "https://scontent.example.com/v/t51.29350-15/carousel1.jpg",
+      "username": "testaccount",
+      "timestamp": "2024-11-25T17:45:00+0000",
+      "caption": "Multiple shots from the event #event",
+      "permalink": "https://www.instagram.com/p/GHI789/",
+      "children": {
+        "data": [
+          {
+            "id": "17854360229135495",
+            "media_type": "IMAGE",
+            "media_url": "https://scontent.example.com/v/t51.29350-15/child1.jpg"
+          },
+          {
+            "id": "17854360229135496",
+            "media_type": "IMAGE",
+            "media_url": "https://scontent.example.com/v/t51.29350-15/child2.jpg"
+          }
+        ]
+      }
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "abc",
+      "after": "xyz"
+    },
+    "next": "https://graph.instagram.com/me/media?after=xyz"
+  }
+}

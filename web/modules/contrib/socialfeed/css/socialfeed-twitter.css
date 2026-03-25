@@ -1,0 +1,50 @@
+/* Twitter BEM styles */
+.sf-twitter-post--styled {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  border: 1px solid #e1e8ed;
+  border-radius: 8px;
+  background: #fff;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.sf-twitter-post--styled .sf-twitter-post__header {
+  margin-bottom: 8px;
+}
+
+.sf-twitter-post--styled .sf-twitter-post__username {
+  text-decoration: none;
+  color: #1d9bf0;
+  font-weight: 600;
+}
+
+.sf-twitter-post--styled .sf-twitter-post__username:hover {
+  text-decoration: underline;
+}
+
+.sf-twitter-post--styled .sf-twitter-post__content {
+  color: #0f1419;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.sf-twitter-post--styled .sf-twitter-post__meta {
+  margin-top: 8px;
+  color: #536471;
+  font-size: 13px;
+}
+
+.sf-twitter-post--styled .sf-twitter-post__actions a {
+  text-decoration: none;
+  color: #1d9bf0;
+  font-weight: 600;
+}
+
+.sf-twitter-post--styled .sf-twitter-post__actions a:hover {
+  text-decoration: underline;
+}
+
+/* Minimal custom */
+.sf-twitter-post--custom .sf-twitter-post__content {
+  margin: 0 0 8px;
+}

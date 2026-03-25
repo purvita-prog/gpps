@@ -1,0 +1,6 @@
+parameters:
+  ignoreErrors:
+    -
+      message: '#Call to deprecated method __construct\(\) of class FacebookAds\\Object\\AbstractCrudObject#'
+      count: 1
+      path: src/Services/FacebookPostCollector.php
