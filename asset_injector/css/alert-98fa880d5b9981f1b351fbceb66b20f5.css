@@ -1,0 +1,68 @@
+.alertsMessageArea {
+    background: #003349;
+    border-bottom: 1px solid #0e5473;
+}
+.sitewide-alert{
+	padding: 0;
+    margin: 0;
+    background: transparent;
+        border: 0;
+   color: #000000;
+}
+.alertsMessageArea .ckeditor-accordion-container h2 {
+    color: #000;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+.alertsMessageArea .ckeditor-accordion-container p{
+	    padding-bottom: 15px;
+}
+.alertsMessageArea .ckeditor-accordion-container h6 {
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.sitewide-alert .ckeditor-accordion-container > dl dt > a > .ckeditor-accordion-toggle{
+	    left: 0;
+	    top: calc(50% - 0px);
+}
+.sitewide-alert .ckeditor-accordion-container > dl{
+	    margin-bottom: 0;
+    border: 0;
+}
+.sitewide-alert .field--name-message{
+	display: block;
+}
+.sitewide-alert .ckeditor-accordion-container > dl dt.active > a,
+.sitewide-alert .ckeditor-accordion-container > dl dt > a, 
+.sitewide-alert .ckeditor-accordion-container > dl dt > a:not(.button),
+.sitewide-alert .ckeditor-accordion-container > dl dt > a:hover, 
+.sitewide-alert .ckeditor-accordion-container > dl dt > a:not(.button):hover{
+    background-color: transparent;
+    color: #F2C300;
+    font-size: 20px;
+        padding: 5px 30px 0px;
+}
+.sitewide-alert .ckeditor-accordion-container > dl dt > a > .ckeditor-accordion-toggle:before, 
+.sitewide-alert .ckeditor-accordion-container > dl dt > a > .ckeditor-accordion-toggle:after{
+	background: #fa8282;
+}
+.sitewide-alert .ckeditor-accordion-container > dl dd{
+	       background: #d1e3d9;
+    border-radius: 10px;
+}
+.alertsMessageArea .ckeditor-accordion-container > dl dt{
+        float: right;
+    margin-top: -43px;
+}
+h2#alerts{
+     padding: 7px 16px;
+    color: #F2C300;
+    padding-right: 30px;
+    position: relative;
+    font-size: 20px;
+}

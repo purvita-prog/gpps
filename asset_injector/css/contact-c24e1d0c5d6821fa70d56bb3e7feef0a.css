@@ -1,0 +1,209 @@
+.contectAreaBox {
+    background: #fff;
+    width: 80%;
+    border: 1px solid #dadada;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.1);
+}
+.contectAreaBox .noBoxArea {
+    background: var(--color-light);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.contactAreaBox {
+    background: #fff;
+    padding: 15px;
+    padding-top: 56px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.contactAreaBox h4 {
+    text-align: center;
+    position: absolute;
+    background: #01599a;
+    white-space: nowrap;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    top: 0;
+    border-radius: 0 0 15px 15px;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact-form-header {
+    margin-bottom: 30px;
+}
+.contact-form-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--color-dark);
+}
+.page-node-44 .block-webform{
+    background: var(--color-white);
+    border-left: 5px solid var(--theme-color);
+    box-shadow: var(--box-shadow);
+    padding: 25px;
+}
+
+.webform-submission-subscribe-to-stay-connected-form .js-form-item .form-control {
+    padding: 15px 20px;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: var(--transition);
+}
+.webform-submission-subscribe-to-stay-connected-form .js-form-item-your-first-name,
+.webform-submission-subscribe-to-stay-connected-form .js-form-item-your-email{
+    float: left;
+        width: 49%;
+}
+.webform-submission-subscribe-to-stay-connected-form .js-form-item-your-postal-code,
+.webform-submission-subscribe-to-stay-connected-form .js-form-item-your-last-name{
+    float: right;
+        width: 49%;
+}
+.webform-submission-subscribe-to-stay-connected-form legend {
+        font-size: 16px;
+        font-weight: normal;
+    }
+.webform-submission-subscribe-to-stay-connected-form .form-check-label{
+	color: #000;
+}
+.webform-button--submit{
+	width: auto;
+}
+.contact-wrapper {
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+}
+.contact-map iframe {
+    width: 100%;
+    height: 560px;
+}
+.contact-wrapper .contact-Box-Address {
+    background: var(--color-light);
+    height: 100%;
+    padding: 25px;
+}
+.information_box {
+    padding: 50px 0px 60px 50px;
+}
+.pbmit-heading-subheading.left-align {
+    padding-left: 30px;
+    border-left: 1px solid #e5e5e5;
+}
+.pbmit-heading-subheading, .pbmit-heading-subheading-style-2, .pbmit-heading-subheading-style-3 {
+    margin-bottom: 30px;
+    position: relative;
+}
+.pbmit-heading-subheading.left-align:before {
+    top: 0;
+}
+.pbmit-heading-subheading.left-align:before, .pbmit-heading-subheading.left-align:after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #33739e;
+    left: -3px;
+}
+.pbmit-heading-subheading .pbmit-subtitle, .pbmit-heading-subheading-style-3 .pbmit-subtitle
+ {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    color: var(--pbmit-secondary-color);
+}
+.pbmit-ihbox-style-5
+ {
+    margin-bottom: 30px;
+}
+.pbmit-heading-subheading .pbmit-title {
+    position: relative;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    line-height: 46px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-style: normal;
+}
+.pbmit-heading-subheading.left-align:after {
+    bottom: 0;
+}
+.pbmit-ihbox-style-5 .pbmit-ihbox-icon-wrapper {
+    font-size: 35px;
+    line-height: 70px;
+    margin-right: 20px;
+    color: var(--color-dark);
+    background: #fff;
+    width: 70px;
+    text-align: center;
+}
+.pbmit-ihbox-style-5 h2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.pbmit-heading-desc {
+    line-height: 25px;
+}
+.operationTimeSt {
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.operationTimeSt p {
+    font-size: 18px;
+        margin: 0;
+}
+.contact-wrapper .footer-social li a i {
+    width: 45px;
+    height: 45px;
+    border-radius: 0;
+    line-height: 45px;
+    background: var(--color-dark);
+    color: #fff;
+}
+.js-form-item-captcha-response label,
+.js-form-item-captcha-response .description {
+	color: #000 !important;
+}
+.simplenews-subscriber-form form .form-actions,
+.simplenews-subscriber-form form .field--type-email{
+	display: none;
+}
+@media (max-width: 768px) {
+  .contectAreaBox{
+  	    width: 100%;
+  }
+  .webform-submission-subscribe-to-stay-connected-form .js-form-item-your-postal-code, .webform-submission-subscribe-to-stay-connected-form .js-form-item-your-last-name,
+  .webform-submission-subscribe-to-stay-connected-form .js-form-item-your-first-name, .webform-submission-subscribe-to-stay-connected-form .js-form-item-your-email{
+    float: unset;
+    width: 100%;
+}
+.information_box {
+    padding: 0;
+}
+}

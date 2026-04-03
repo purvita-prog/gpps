@@ -1,0 +1,565 @@
+html, body {
+    overflow-x: hidden;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.emergency-call a{
+	color: #C9A227 !important;
+}
+.views_slideshow_cycle_main,
+.views_slideshow_cycle_teaser_section,
+.views_slideshow_cycle_slide {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.region-top-alert h2#alerts{
+	    visibility: hidden;
+}
+.views_slideshow_cycle_slide img {
+    width: 100%;
+    height: auto;
+}
+header #search-block-form{
+	display: none;
+}
+.views_slideshow_controls_text_previous a:hover, .views_slideshow_controls_text_next a:hover{
+     background: var(--color-white);
+    color: var(--theme-color);
+}
+.views_slideshow_controls_text_previous a:hover::before,
+.views_slideshow_controls_text_next a:hover::before{
+    color: var(--theme-color);
+}
+.views-field-field-slide-image {
+  position: relative;
+}
+
+.views-field-field-slide-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+#block-gppolice-views-block-slider-block-1 .views_slideshow_cycle_teaser_section{
+	top: -160px !important;
+	background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+#block-gppolice-views-block-slider-block-1 .views_slideshow_cycle_teaser_section::before {
+	content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    z-index: 1;
+}
+.hero-content .hero-sub-title {
+    display: inline-block;
+    background: var(--theme-color);
+    background: linear-gradient(to right, #1F4E79 0%, rgba(0, 0, 0, 0.5) 100%);
+    padding: 6px 6px 6px 10px;
+    color: var(--color-white);
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-weight: 800;
+    position: relative;
+    text-transform: uppercase;
+}
+.hero-content .hero-title {
+    color: var(--color-white);
+    font-size: 60px;
+    font-weight: 800;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.hero-content p {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.hero-single .hero-content .hero-btn {
+    /*gap: 1rem;*/
+    display: flex;
+    margin-top: 35px;
+    justify-content: start;
+}
+
+.view-slider .views-row{
+   position: relative;
+    min-height: 500px;   /* desktop height */
+    overflow: hidden;
+}
+
+.hero-btn{
+	gap: 1rem;
+    display: flex;
+    margin-top: 35px;
+    justify-content: start;
+}
+.hero-btn a{
+	    margin-right: 6px;
+	    font-size: 13px;
+    color: var(--color-white);
+    padding: 15px 20px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    background: var(--color-dark);
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+}
+.hero-btn a:nth-child(2) {
+    background: var(--color-white);
+    color: var(--color-dark);
+}
+/*#block-gppolice-views-block-slider-block-1{
+	position: relative;
+}*/
+#navbar-top{
+	    z-index: 999;
+}
+#backtotop{    
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: var(--color-white);
+    background-color: var(--theme-color);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: var(--box-shadow2);
+    transition: var(--transition);
+    opacity: 1;
+    visibility: visible;
+}
+#backtotop:hover {
+    opacity: 1;
+}
+@media (max-width: 992px) {
+	.hero-content .hero-title {
+    font-size: 50px;
+    margin: 0;
+}
+  .hero-text {
+    left: 6%;
+    max-width: 500px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+  #block-gppolice-views-block-slider-block-1 .view-slider .views-row {
+    min-height: 400px;
+  }
+}
+@media (max-width: 768px) {
+	.about-right{
+		    padding-left: 20px;
+	}
+	.views-view-responsive-grid.views-view-responsive-grid--horizontal {
+    display: block;
+}
+	   .hero-content .hero-sub-title {
+        font-size: 15px;
+
+}
+	.views-field-field-slide-image img{
+    width: 100%;
+    height: 861px;
+    object-fit: cover;
+}
+
+  .hero-text {
+    top: auto;
+    bottom: 15%;
+    left: 5%;
+    transform: none;
+    max-width: 90%;
+  }
+
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+  #block-gppolice-copyright{
+      padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+#block-gppolice-copyright .field--name-body{
+  display: inline;
+}
+#block-gppolice-copyright .field--name-body .text-end{
+      text-align: left !important;
+    padding-top: 10px;
+}
+ #block-gppolice-views-block-slider-block-1 .view-slider .views-row {
+    min-height: 320px;
+  }
+}
+
+/* Make slideshow wrapper relative */
+.view-page-slider {
+  position: relative;
+}
+
+
+
+/* Make slideshow wrapper relative */
+.view-page-slider {
+  position: relative;
+}
+
+/* Move controls over image */
+.views_slideshow_controls_text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+/* Style buttons */
+.views_slideshow_controls_text_previous a,
+.views_slideshow_controls_text_next a {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  pointer-events: auto;
+  transition: 0.3s ease;
+      position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.views_slideshow_controls_text_pause{
+  display: none;
+}
+
+.hero-region {
+    position: relative;
+    /*height: 100vh;*/
+   /* min-height: 610px;*/
+    overflow: hidden;
+}
+.views-slideshow-controls-bottom .views-slideshow-pager-bullets{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+}
+.views-slideshow-pager-bullets li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  list-style: none;
+  cursor: pointer;
+  font-size: 0; /* hide numbers */
+}
+
+.views-slideshow-pager-bullets li.active {
+  background: #ffffff;
+  transform: scale(1.2);
+}
+.views-slideshow-controls-bottom .views-slideshow-pager-bullets .list-group-item {
+    background: var(--color-white);
+    margin: 5px;
+    border-radius: 50px;
+    width: 8px;
+    height: 13px;
+    display: inline-block;
+    transition: var(--transition);
+}
+.views-slideshow-controls-bottom .views-slideshow-pager-bullets .list-group-item.active {
+    background: var(--color-white);
+    width: 20px;
+    height: 8px;
+}
+.views_slideshow_controls_text_previous a,
+.views_slideshow_controls_text_next a {
+  font-size: 0;
+}
+/* Base button styling */
+.views_slideshow_controls_text_previous a,
+.views_slideshow_controls_text_next a {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.views_slideshow_controls_text_previous a::before {
+    content: "\f177";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+}
+.views_slideshow_controls_text_next a::before {
+    content: "\f178";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+}
+
+.views_slideshow_controls_text_previous,
+.views_slideshow_controls_text_next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.views_slideshow_controls_text_previous {
+  left: 40px;
+}
+
+.views_slideshow_controls_text_next {
+  right: 80px;
+}
+.hero-btn a:first-child::after {
+    content: "\f061";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 5px;
+}
+.hero-btn a:last-child::after {
+    content: "\f061";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 5px;
+}
+/************/
+   .region-hero {
+        max-height: 600px; /* slightly smaller height */
+    }
+    
+.region-hero .view-slider {
+    width: 100%;
+}
+
+.views_slideshow_cycle_teaser_section {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.views_slideshow_cycle_teaser_section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.region-hero {
+    padding-top: 94px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    max-height: 760px; /* desktop large height */
+    overflow: hidden;
+}
+/* === Stop inline height from JS === */
+.views_slideshow_cycle_teaser_section,
+.views_slideshow_cycle_main {
+    height: auto !important;
+    min-height: 610px; /* minimum height so image always large */
+}
+/* === Make image fully responsive and cover === */
+.views_slideshow_cycle_slide img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    display: block;
+}
+.region-hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -0.5px;
+    top: 0;
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    z-index: -1;
+}
+div#main-wrapper {
+    margin-top: -5.7rem;
+}
+
+/* === Tablet breakpoint === */
+@media (max-width: 992px) {
+ 
+/*************/
+
+/* === Make image fully responsive and cover === */
+.views_slideshow_cycle_slide img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    display: block;
+}
+
+/* === Proportional slider height like reference === */
+.region-hero {
+    position: relative;
+    width: 100%;
+    max-height: 760px; /* desktop large height */
+    overflow: hidden;
+}
+}
+
+/* === Mobile breakpoint === */
+@media (max-width: 576px) {
+    .region-hero {
+        max-height: 420px; /* more compact height */
+    }
+}
+
+/* === Content inside slider aligned to container width === */
+.region-hero .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* === Tablet breakpoint === */
+@media (max-width: 992px) {
+    .region-hero {
+        max-height: 540px; /* slightly smaller height */
+    }
+}
+
+/* === Mobile breakpoint === */
+@media (max-width: 576px) {
+    .region-hero {
+        max-height: 380px; /* more compact height */
+    }
+}
+
+/* === Content inside slider aligned to container width === */
+.region-hero .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Ensure slide is positioning parent */
+.views_slideshow_cycle_slide {
+    position: relative !important;
+}
+
+/* Overlay text full width */
+.view-slider .views-field.views-field-nothing {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+/* Limit text width but keep LEFT aligned */
+.hero-content {
+    max-width: 600px;
+}
+
+
+/* Tablet */
+@media (max-width: 991px) {
+    #block-gppolice-views-block-slider-block-1 .views-field.views-field-nothing {
+        padding-top: 130px;
+    }
+    .hero-content .hero-title{
+    	    font-size: 50px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    #block-gppolice-views-block-slider-block-1 .views-field.views-field-nothing {
+        padding-top: 150px;
+    }
+}
+
+/* Around 67% screen size */
+@media (max-width: 1024px) {
+    .view-slider .views-field.views-field-nothing {
+        padding-top: 160px;
+    }
+    .hero-content .hero-title{
+    	    font-size: 50px;
+    }
+}
+#block-gppolice-vpdlogo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#block-gppolice-vpdlogo img{
+    width: 100px;
+    height: auto;
+        margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+        margin-bottom: .5rem;
+}
+#block-gppolice-vpdlogo a{
+	color: #ffffff;
+}
+.site-footer__top p {
+  font-size: 16px;
+  color: #fff;
+}
+#block-gppolice-vpdlogo a:hover {
+    color: #F2C300;
+}
+.region-top-header-form .block {
+  width: auto; /* prevent full width blocks */
+}
+#block-gppolice-headercontact .field__item p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 15px;
+}

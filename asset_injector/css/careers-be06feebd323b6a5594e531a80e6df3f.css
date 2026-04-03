@@ -1,0 +1,222 @@
+article.node--type-careers .layout__region.layout__region--first,
+article.node--type-community-benefits .layout__region.layout__region--first,
+article.node--type-about .layout__region.layout__region--first,
+article.node--type-resources .layout__region.layout__region--first,
+article[data-history-node-id="41"] .layout__region.layout__region--first{
+       padding-right: 20px;
+}
+article.node--type-careers .layout__region.layout__region--second,
+article.node--type-community-benefits .layout__region.layout__region--second,
+article.node--type-about .layout__region.layout__region--second,
+article.node--type-resources .layout__region.layout__region--second,
+article[data-history-node-id="41"] .layout__region.layout__region--second{
+       padding-left: 20px;
+       background: #fff;
+    border: 1px solid #cdd0d7;
+    border-radius: 15px;
+    padding: 20px;
+}
+article.node--type-careers .block-menu.navigation.menu--main,
+article.node--type-community-benefits .block-menu.navigation.menu--main,
+article.node--type-about .block-menu.navigation.menu--main,
+article.node--type-resources .block-menu.navigation.menu--main,
+article[data-history-node-id="41"] .block-menu.navigation.menu--main{
+       background: #fff;
+    border: 1px solid #cdd0d7;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        padding: 20px;
+}
+article.node--type-careers .block-menu.navigation.menu--main h2,
+article.node--type-community-benefits .block-menu.navigation.menu--main h2,
+article.node--type-about .block-menu.navigation.menu--main h2,
+article.node--type-resources .block-menu.navigation.menu--main h2,
+article[data-history-node-id="41"] .block-menu.navigation.menu--main h2{
+       background: transparent;
+    padding: 0px 0px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--theme-color);
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+}
+/*article.node--type-careers .block-menu.navigation.menu--main h2::before,
+article.node--type-community-benefits .block-menu.navigation.menu--main h2::before,
+article.node--type-about .block-menu.navigation.menu--main h2::before,
+article.node--type-resources .block-menu.navigation.menu--main h2::before,
+article[data-history-node-id="41"] .block-menu.navigation.menu--main h2 .block-menu.navigation.menu--main h2::before {
+    content: "\f0b1";
+    font-family: "Font Awesome 6 Pro";
+    width: 40px;
+    height: 40px;
+    background: #003349;
+    border-radius: 10px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}*/
+article.node--type-careers .nav-item .nav-link.active, 
+article.node--type-careers .nav-item:hover .nav-link,
+article.node--type-community-benefits .nav-item .nav-link.active, 
+article.node--type-community-benefits .nav-item:hover .nav-link,
+article.node--type-about .nav-item .nav-link.active, 
+article.node--type-about .nav-item:hover .nav-link,
+article.node--type-resources .nav-item .nav-link.active, 
+article.node--type-resources .nav-item:hover .nav-link,
+article[data-history-node-id="41"] .nav-item .nav-link.active, 
+article[data-history-node-id="41"] .nav-item:hover .nav-link{
+           background: var(--theme-color);
+        color: #fff;
+        border-radius: 7px;
+        padding: 7px 10px;
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 0;
+            font-size: 15px;
+}
+article.node--type-careers a.nav-link.is-active::before,
+article.node--type-careers a.nav-link::before,
+article.node--type-community-benefits a.nav-link.is-active::before,
+article.node--type-community-benefits a.nav-link::before,
+article.node--type-about a.nav-link.is-active::before,
+article.node--type-about a.nav-link::before,
+article.node--type-resources a.nav-link.is-active::before,
+article.node--type-resources a.nav-link::before,
+article[data-history-node-id="41"] a.nav-link.is-active::before,
+article[data-history-node-id="41"] a.nav-link::before{
+    content: "\f061";
+    font-family: "Font Awesome 6 Pro";
+    margin-right: 10px;
+}
+article.node--type-careers .nav-item .nav-link,
+article.node--type-community-benefits .nav-item .nav-link,
+article.node--type-about .nav-item .nav-link,
+article.node--type-resources .nav-item .nav-link,
+article[data-history-node-id="41"] .nav-item .nav-link{
+    background: #fff;
+    color: #000;
+    border-radius: 7px;
+    padding: 7px 10px;
+    display: block;
+    margin-bottom: 10px;
+        font-size: 15px;
+}
+article.node--type-careers a.nav-link,
+article.node--type-community-benefits a.nav-link,
+article.node--type-about a.nav-link,
+article.node--type-resources a.nav-link,
+article[data-history-node-id="41"] a.nav-link {
+  color: var(--theme-color);
+}
+article.node--type-careers a.nav-link,
+article.node--type-community-benefits a.nav-link,
+article.node--type-about a.nav-link,
+article.node--type-resources a.nav-link,
+article[data-history-node-id="41"] a.nav-link{
+    border-bottom: 1px solid #ced4da;
+}
+article.node--type-careers .field--name-title,
+article.node--type-community-benefits .field--name-title,
+article.node--type-about .field--name-title,
+article.node--type-resources .field--name-title,
+article[data-history-node-id="41"] .field--name-title,
+article .field--name-title{
+    font-size: 20px;
+    color: #003349;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    line-height: 1.2;
+}
+article.node--type-careers .block-field-blocknodecareerstitle,
+article.node--type-community-benefits .block-field-blocknodecareerstitle,
+article.node--type-about .block-field-blocknodecareerstitle,
+article.node--type-resources .block-field-blocknodecareerstitle,
+article[data-history-node-id="41"] .block-field-blocknodecareerstitle{
+    margin-bottom: 20px;
+}
+#block-gppolice-main-menu .dropdown-item.active,
+#block-gppolice-main-menu .dropdown-item.active{
+   background-color: var(--theme-color);
+}
+#block-gppolice-main-menu .dropdown-item.active a,
+#block-gppolice-main-menu .dropdown-item.active a{
+   color: #ffffff;
+}
+article.node--type-careers .layout__region--second ul,
+article.node--type-community-benefits .layout__region--second ul,
+article.node--type-about .layout__region--second ul,
+article.node--type-resources .layout__region--second ul,
+article[data-history-node-id="41"] .layout__region--second ul
+{
+    padding-left: 2rem;
+}
+article.node--type-careers .layout__region--second ul > li,
+article.node--type-community-benefits .layout__region--second ul > li,
+article.node--type-about .layout__region--second ul > li,
+article.node--type-resources .layout__region--second ul > li,
+article[data-history-node-id="41"] .layout__region--second ul > li{
+list-style: unset;
+}
+.news-datetime{
+        display: flex;
+    gap: 20px;
+    align-items: center;
+}
+@media (max-width: 768px) {
+article.node--type-careers .layout__region.layout__region--first,
+article.node--type-community-benefits .layout__region.layout__region--first,
+article.node--type-about .layout__region.layout__region--first,
+article.node--type-resources .layout__region.layout__region--first,
+article[data-history-node-id="41"] .layout__region.layout__region--first {
+    padding-right: 0;
+            padding-bottom: 20px;
+}
+.mm-navbar__title>span{
+    color: #000000;
+    font-weight: 700;
+}
+.navbar-toggler-icon{
+    width: 0;
+    height: 0;
+            display: inline;
+}
+span.navbar-toggler-icon::before {
+    content: "\f0c9";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    color: #ffffff;
+}
+}
+article.node--type-careers table.table thead tr th,
+article.node--type-community-benefits table.table thead tr th,
+article.node--type-about table.table thead tr th,
+article.node--type-resources table.table thead tr th,
+article[data-history-node-id="41"] table.table thead tr th {
+    background: #33739E;
+    color: #fff;
+}
+article.node--type-careers table.table thead tr th, 
+article.node--type-careers table.table tbody tr td,
+article.node--type-community-benefits table.table thead tr th, 
+article.node--type-community-benefits table.table tbody tr td,
+article.node--type-about table.table thead tr th, 
+article.node--type-about table.table tbody tr td,
+article.node--type-resources table.table thead tr th, 
+article.node--type-resources table.table tbody tr td,
+article[data-history-node-id="41"] table.table thead tr th, 
+article[data-history-node-id="41"] table.table tbody tr td {
+    border: 0;
+    border-left: 1px solid #222;
+    border-top: 1px solid #222;
+    line-height: 20px;
+}
+.btn-01 {
+    background: #33739E;
+    padding: 5px 15px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 15px;
+}

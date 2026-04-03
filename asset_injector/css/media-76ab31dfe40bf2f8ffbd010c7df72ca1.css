@@ -1,0 +1,16 @@
+@media (max-width: 1199px) {
+    .event-item {
+        flex-direction: column;
+    }
+    .event-img img {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+.careers-img-Box{
+	    background-image: url() !important;
+}
+.about-text{
+	font-size: 16px;
+}
+}

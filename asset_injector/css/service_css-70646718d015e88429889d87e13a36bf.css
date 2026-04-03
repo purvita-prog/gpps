@@ -1,0 +1,187 @@
+.site-heading {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+.heading-divider
+ {
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 4px;
+    background: rgba(45, 39, 39, 1);
+    border-radius: 50px;
+}
+.heading-divider::after {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background: var(--theme-color);
+    top: -4.8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.community-services{
+    background: #F8F8F8;
+}
+.community-services .layout__region--content{
+    max-width: 1200px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.service-item {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: var(--color-white);
+    transition: var(--transition);
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+}
+.service-img-wrap {
+    position: relative;
+    z-index: 1;
+}
+
+.service-icon {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    line-height: 70px;
+    background: var(--theme-color);
+    font-size: 50px;
+    color: var(--color-white);
+    text-align: center;
+    border-radius: 50px;
+    left: 50%;
+    bottom: -15px;
+    border: 4px solid var(--color-white);
+    transform: translateX(-50%);
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+}
+.service-icon img {
+    width: 50px;
+    filter: brightness(0) invert(1);
+    padding: 0;
+}
+.service-content {
+    position: relative;
+    margin-top: 5px;
+}
+.service-title a {
+    font-size: 22px;
+    margin: 25px 0 20px 0;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--color-dark);
+}
+.service-arrow {
+    margin-top: 25px;
+}
+.service-arrow .theme-btn {
+    padding: 12px 22px;
+}
+/*************/
+.blog-item {
+    padding: 20px;
+    margin-bottom: 25px;
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+}
+.blog-item-img {
+    overflow: hidden;
+}
+.blog-item-info {
+    padding: 15px 0 0 0;
+}
+.blog-item-meta ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 14px;
+    border-bottom: 1px solid var(--border-info-color);
+    padding-bottom: 0px;
+}
+.blog-item-meta ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: 500;
+    position: relative;
+    color: var(--color-dark);
+}
+.blog-item-meta ul li i {
+    margin-right: 5px;
+    color: var(--theme-color);
+}
+.blog-title {
+    font-size: 18px;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+.blog-item-info h4 a {
+    color: var(--color-dark);
+}
+.blog-item-info p {
+    margin-bottom: 16px;
+    line-height: 22px;
+}
+.recruitment-highlight {
+  background-image: url('/sites/default/files/2026-03/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  display:none;
+}
+.view-recruitment-highlight .slick__slide{
+    margin-right: 10px;
+}
+.recruitment-highlight::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 42, 74, .7);
+}
+/******************/
+.careers-img-Box {
+    background-image: url(/sites/default/files/inline-images/join-our-team.jpg) ;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+.careers-area-Box {
+    background: var(--theme-color);
+    padding: 50px;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+}
+.careers-area-Box h3 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.careers-area-Box h6 {
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.careers-area {
+    background: #F2F4F6;
+}

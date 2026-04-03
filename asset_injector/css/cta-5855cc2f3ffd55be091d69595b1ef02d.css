@@ -1,0 +1,104 @@
+.cta-wrapper {
+	background-image: url('/sites/default/files/2026-02/cta-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 40px;
+    z-index: 1;
+}
+.cta-wrapper::before {
+    content: "";
+    position: absolute;
+    background: var(--theme-color);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0px;
+    opacity: .85;
+    z-index: -1;
+}
+.cta-divider {
+    position: relative;
+}
+.cta-divider::before {
+    position: absolute;
+    content: close-quote;
+    width: 2px;
+    bottom: 0;
+    background-color: var(--color-white);
+    right: -118px;
+    top: 0;
+}
+.cta-text h1 {
+    color: var(--color-white);
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.cta-text p {
+    color: var(--color-white);
+}
+.cta-divider:after {
+    width: 0px;
+    position: absolute;
+    content: close-quote;
+    height: 0px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid var(--color-white);
+    top: 50%;
+    transform: translateY(-50%);
+    right: -124px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.cta-number {
+    font-size: 32px;
+    color: var(--color-white) !important;
+    font-weight: 700;
+}
+.theme-btn2
+{
+    background: var(--color-white);
+    color: var(--color-dark);
+}
+/*****************/
+.event-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 15px;
+    background: var(--color-white);
+    margin-bottom: 25px;
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+    transition: all .5s ease-in-out;
+}
+.event-img {
+    overflow: hidden;
+}
+.event-content {
+    flex: 1;
+}
+.event-meta ul {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+.event-meta li i {
+    color: var(--theme-color);
+    margin-right: 7px;
+}
+.event-title {
+    margin: 5px 0;
+    font-size: 16px;
+        height: 38px;
+}
+.event-content .theme-btn {
+    margin-top: 15px;
+    padding: 9px 18px;
+}
+.event-img img {
+    width: 200px;
+}
